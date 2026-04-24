@@ -33,9 +33,14 @@ nav {
 nav a {
     border-radius: 10px;
     padding: 5px;
-    text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.3s;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.208);
 }
 nav a:hover {
     transform: scale(1.2);
@@ -81,6 +86,8 @@ footer {
     display: inline-block;
     margin-top: 10px;
     transition: 0.3s;
+    text-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.434);
 }
 #agendarAgora:hover {
     transform: scale(1.2);
@@ -180,6 +187,9 @@ footer {
 #bugalabugaSub hr {
     height: 15px;
     border: 1px solid white;
+}
+.card p {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.502);
 }
 
 /* trazendo as fonte da pasta */
