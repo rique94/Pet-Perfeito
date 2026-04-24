@@ -1,177 +1,74 @@
-/* Importando as fontes com @import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Arrumando a página */
 * {
     padding: 0px;
     margin: 0px;
-    /*Rosa deles: #c67b9d*/
 }
 body {
-    background-color: #424242;
-    text-align: justify;
-    color: white;
-    font-family: "Montserrat";
-}
-
-/* Fazendo o header */
-header {
+    font-family: "Montserrat", sans-serif;
     background-color: black;
-    font-family: "CocogooseNormal";
+    color: white;
+}
+header {
+    background: linear-gradient(#FF1493, black);
+    padding: 20px;
 }
 h1 {
     text-align: center;
-    padding: 10px;
-    padding-bottom: 5px;
-    margin: 0px;
-}
-h2 {
-    text-align: center;
-    font-size: 10pt;
-    padding: 10px;
+    margin: 15px;
+    font-family: "Cocogoose", sans-serif;
 }
 nav {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-   padding: 5px;
-    background-color: #c67b9d;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    gap: 15px;
 }
-a {
-    text-decoration: none;
-    color: white;
-    font-family: "CocogooseNormal";
-}
-.navBtn {
-    font-size: smaller;
-    border: 2px solid white;
+nav a {
     border-radius: 10px;
-    padding: 9px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
-.navBtn:hover {
-    transform: scale(1.05);
-}
-#whatsapp {
-    background-color: rgb(36, 133, 36);
-}
-#instagram {
-    background: linear-gradient(#810cfd, #fc01d4, #ffcc00);
-}
-
-/* Fazendo o Main */
-h3 {
-    font-family: "CocogooseBold";
-    margin: 15px;
-    font-size: x-large;
-}
-h4 {
-    font-size: 18px;
-    text-align: left;
-    text-align: center;
-    margin-bottom: 5px;
-}
-ul {
-   background-color: #c67b9d;
-   margin: auto; 
-   min-width: 200px;
-   max-width: 300px;
-   margin: 10px;
-   padding: 25px;
-   border-radius: 10px;
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-   flex-grow: 1;
-}
-footer{
-    margin-top: 50px;
-    background-color: black;
-    padding: 50px;
-    font-family: "Montserrat", sans-serif;
+nav a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 hr {
-    border: none;
-    height: 1px;
-    background-color: rgba(255,255,255,0.2);
-    margin: 20px 0;
+    color: white;
 }
-img {
-    max-height: 100%;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-section .container .box {
-    max-width: 450px;
-    max-height: 500px;
-}
-#localizacao {
-    margin: 0;
-}
-#contato {
-    margin-bottom: 40px;
-}
-.card {
-    background-color: #c67b9d;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 450px;
-    flex-direction: column;
-    transition: 0.3s;
-}
-.card:hover{
-    transform: translateY(-3px);
-}
-.text {
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    min-height: 134.4px;
-    margin: auto;
-    margin-bottom: 10px;
-    text-align: left;
-    line-height: 1.5;
-    font-size: 14px;
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.box {
-    flex: 1 1 300px;
-    flex-direction: column;
-    display: flex;
-    transition: 0.3s;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.box:hover {
-    transform: translateY(-3px);
-}
-.Text {
-    background-color: #c67b9d;
-    padding: 10px;
-    border-radius: 10px;
+.subTitles {
     margin: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
 }
-.warning {
-    font-size: 8px;
+#agendar div p {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#subtitulo {
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#divTitulo {
+    /*background: linear-gradient(#ff1491, #000000);*/
+    text-align: center;
+    background-size: 100% 100%;
+}
+#agendarAgora {
+    text-decoration: none;
+    color: white;
+    background-color: #FF1493;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-/* Importando as fontes */
+/* trazendo as fonte da pasta */
 @font-face {
-    font-family: "CocogooseNormal";
+    font-family: "Cocogoose";
     src: url("Fonts/Cocogoose-Pro-Semilight-trial.ttf");
-}
-@font-face {
-    font-family: "CocogooseBold";
-    src: url("Fonts/Cocogoose-Pro-Bold-trial.ttf");
 }
