@@ -18,10 +18,17 @@ h1 {
     margin: 15px;
     font-family: "Cocogoose", sans-serif;
 }
+h4 {
+    color: white;
+    font-family: "Cocogoose", sans-serif;
+}
 nav {
     display: flex;
     justify-content: center;
     gap: 15px;
+    min-width: 100px;
+
+    flex-wrap: wrap;
 }
 nav a {
     border-radius: 10px;
@@ -37,13 +44,21 @@ nav a:hover {
 hr {
     color: white;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #161616;
+    color: #ffff;
+}
 .subTitles {
+    text-align: center;
     margin: 10px;
+    margin-bottom: 15px;
 }
 #agendar div p {
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 #subtitulo {
     margin: 0px;
@@ -65,6 +80,106 @@ hr {
     padding: 10px;
     display: inline-block;
     margin-top: 10px;
+    transition: 0.3s;
+}
+#agendarAgora:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#containerCard {
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+#direitos {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+#sobre {
+    background: linear-gradient(black, #161616);
+    padding: 40px;
+    text-align: center;
+}
+.container {
+    margin: auto;
+}
+.card {
+    background-color: #161616;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 2px solid #272727;
+    box-shadow: 0px 0px 5px 2px #ff149170;
+
+    display: block;
+    width: 250px;
+}
+.cardTitle {
+    color: #FF1493;
+}
+.arrumarMargin {
+    margin: 10px;
+    text-align: center;
+}
+#btn {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(rgb(72, 189, 87), #469041);
+    margin-right: 10px;
+}
+#btn1 {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(#800cfd80, #fc01d298, #ffcc00a8);
+    margin-left: 10px;
+}
+
+#contatosRodape {
+    color: white;
+}
+
+#sobreNos {
+    box-shadow: 0px 0px 5px 2px #ff149170;
+    margin: auto;
+    padding: 20px;
+    border: 2px #272727;
+    border-radius: 10px;
+
+    display: block;
+    min-width: 100px;
+}
+
+#sobreTitulo {
+    margin: 10px;
+    color: white;
+    
+}
+#bagulabuga {
+    margin: auto;
+    text-align: center;
+}
+#bugalabugaSub {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#bugalabugaSub hr {
+    height: 15px;
+    border: 1px solid white;
 }
 
 /* trazendo as fonte da pasta */
